@@ -1,48 +1,78 @@
-# AnywhereLLM 🚀
+ # AnywhereLLM
 
-AnywhereLLM is a tool that allows users to leverage language models (LLMs) such as GPT-3 for various tasks without leaving their current application. Users can input text, summarize it for long-term memory, and generate responses based on context and typed strings.
+ AnywhereLLM is a versatile tool that allows you to store chat history context and generate content for tasks anywhere on your system using convenient hotkeys. With AnywhereLLM, you can seamlessly integrate context from your chat history into AI tools like ChatGPT to provide them with relevant information.
 
-## Features ✨
+ ## Table of Contents
 
-- **Text Summarization:** Users can summarize text for long-term memory using GPT-3, providing context for subsequent interactions.
-- **Content Generation:** Generate responses or perform tasks based on typed strings and the context provided by the long-term memory.
-- **Hotkey Integration:** Use customizable hotkeys to add content, generate responses, and clear long-term memory without interrupting workflow.
+1. [AnywhereLLM](#AnywhereLLM)
+2. [Features](##features)
+3. [Usage](#usage)
+4. [Contributions you can make](#contributions-you-can-make)
+5. [Installation](#installation)
+6. [Dependencies](#dependencies)
+7. [Getting Started](#getting-started)
 
-## Getting Started 🛠️
 
-1. Clone the repository:
+ ## Features
 
-   ```bash
-   git clone https://github.com/santosh-gkg/AnywhereLLM.git
-   ```
+ - **Contextual Content Generation**: Easily generate content for tasks by providing the context of the chat history and the task you are doing.
+ - **Hotkey Integration**: Use customizable hotkeys to add content to the chat history, generate content for tasks, and clear the chat history.
+ - **No API Key Required**: Utilize the ChatGPT reverse proxy server for content generation without the need for an OpenAI API key.
 
-2. Install the required dependencies:
+ ## Usage
 
-```bash
-npm install
-```
+ 1. **Adding Content to Chat History**: Press `Alt+Space` to add content to the chat history.
+ 2. **Generating Content for Tasks**: Press `Shift+Space` to generate content for the current task using the chat history context.
+ 3. **Clearing Chat History**: Press `Ctrl+Shift` to clear the chat history.
 
-3. Start the application:
+ ## Contributions you can make
+ - Integrate the support of images, use PIL to access copied images, an api provider AI tool for image tasks
+ - Add the voice command support
+ - Add the support of chat with documents simply by copying a document
+ - Automating tasks using keyboard.press_and_release function 
 
-```bash
-npm start
-```
+ Pull requests are highly appreciated.
+ ## Installation
 
-4. Open your browser and navigate to `AnywhereLLM.com` to access AnywhereLLM.
+ To use AnywhereLLM, simply clone the repository and run the provided script.
 
-## Contributing 🤝
+  To use chatgpt 3.5 turbo for free Do
+ ```bash
+ docker run -dp 3040:3040 pawanosman/chatgpt:latest
+ ```
+ We use this reverse proxy, if you want to use other models you can edit the openai base and api key
+ I would like to thanks [PawanOsman](https://github.com/PawanOsman/ChatGPT/) for this amazing contribution.
 
-Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+ ```bash
+ git clone https://github.com/santosh-gkg/anywhereLLM.git
+ cd anywhereLLM
+ pip install -r requirements.txt
+ python anywhereLLM.py
+ ```
 
-## License 📝
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-## Acknowledgements 🙏
 
-- This project was inspired by the concept of leveraging language models for various tasks.
-- Special thanks to the developers of GPT-3 and the OpenAI team for their incredible work.
+ ## Dependencies
 
-## Contact 📧
+ - `openai`
+ - `keyboard`
+ - `pyperclip`
 
-For any inquiries or feedback, please contact us at anywherellm@example.com.
+ Ensure these dependencies are installed before running AnywhereLLM.
+
+ ## Getting Started
+
+ 1. Setup the installation as mentioned above.
+ 2. Customize hotkeys according to your preference.
+ 3. Use AnywhereLLM by simply running `python anywhereLLM.py`.
+
+
+
+
+
+Feel free to raise an issue! 
+
+
+
+
