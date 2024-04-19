@@ -73,7 +73,7 @@
 
  1. Setup the installation as mentioned above.
  2. Customize hotkeys according to your preference.
- 3. Use AnywhereLLM by simply running `python anywhereLLM.py`.
+ 3. Use AnywhereLLM by simply running `python main.py`.
 
 
 
