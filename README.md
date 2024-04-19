@@ -2,6 +2,14 @@
 
  AnywhereLLM is a versatile tool that allows you to store chat history context and generate content for tasks anywhere on your system using convenient hotkeys. With AnywhereLLM, you can seamlessly integrate context from your chat history into AI tools like ChatGPT to provide them with relevant information.
 
+
+<p align="center">
+  <img src="AnywhereLLM.png" alt="AnywhereLLM logo"></a>
+</p>
+
+
+ 
+
  ## Table of Contents
 
 1. [AnywhereLLM](#AnywhereLLM)
