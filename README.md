@@ -47,7 +47,7 @@
  git clone https://github.com/santosh-gkg/anywhereLLM.git
  cd anywhereLLM
  pip install -r requirements.txt
- python anywhereLLM.py
+ python main.py
  ```
 
 
